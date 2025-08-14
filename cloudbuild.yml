@@ -12,3 +12,5 @@ steps:
       ]
   - name: "gcr.io/cloud-builders/docker"
     args: ["push", "southamerica-east1-docker.pkg.dev/microservices-469015/images-registry/auth-ms"]
+options:
+  logging: CLOUD_LOGGING_ONLY
